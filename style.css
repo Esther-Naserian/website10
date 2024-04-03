@@ -1,0 +1,331 @@
+#navbar{
+display: flex;
+justify-content: space-between;
+text-decoration: none;
+}
+
+#container1{
+display: flex;
+}
+#container3{
+display: flex;
+justify-content: space-between;
+}
+#container4{
+display: flex;
+justify-content: space-between;
+}
+#container6{
+display: flex;
+}
+#container7{
+    display: flex;
+}
+#container5{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+#container8{
+display: flex;
+}
+#container9{
+display: flex;
+gap: 5%;
+margin-left: 30%;
+}
+#container12{
+    display: flex;
+    justify-content: space-between;
+}
+#container14{
+display: flex;
+}
+#container10{
+display: flex;
+}
+.img{
+width: 500px;
+height: 400px;
+}
+#text{
+    text-align: center;
+    font-size: smaller;
+}
+.b1{
+  background-color: green; 
+  border-radius: 40px;
+}
+#page1{
+    display: flex;
+    margin-left: 20%;
+}
+#text2{
+    text-align: center;
+    background-color: aquamarine;
+}
+.buttons{
+  text-align: center; 
+  display: flex; 
+}
+#Amazing{
+margin-left: 10%;
+}
+#image1{
+display: flex;
+justify-content: space-between;
+}
+#images2{
+display: flex;
+justify-content: space-between;
+}
+#images3{
+    display: flex;
+    justify-content: space-between;
+}
+#page7{
+display: flex;
+margin-left: 5%;
+}
+#page8{
+display: flex;
+}
+#page9{
+display: flex;
+justify-content: space-evenly;
+}
+.h1{
+margin-left: 2%;
+}
+#chat{
+text-align: center;
+}
+#photos{
+justify-content: space-evenly;
+display: flex;
+gap: 10%;
+justify-content: center
+}
+#last{
+    text-align: center;
+}
+#lasttext{
+    text-align: center;
+}
+#footer{
+display: flex;
+justify-content: space-between;
+}
+#container2{
+    gap: 5%;
+}
+#container2{
+    margin-left: 10%;
+}
+#container6{
+margin: left 10%; ;
+}
+.b2{
+background-color: forestgreen;
+}
+@media screen and (max-width: 650px){
+    #navbar{
+text-decoration: none;
+font-size: smaller;
+}
+
+#container1{
+    flex-wrap: wrap;
+    grid-template-columns: auto;
+    font-size: smaller;
+    }
+    #container3{
+    flex-wrap: wrap;
+grid-template-columns: auto;
+    }
+    #container4{
+flex-wrap: wrap;
+    grid-template-columns: auto;
+    }
+    #container6{
+flex-wrap: wrap;
+grid-template-columns: auto;
+    }
+    #container7{
+    flex-wrap: wrap;
+    grid-template-columns: auto;
+    }
+    #container5{
+        flex-wrap: wrap;
+        grid-template-columns: auto;
+    }
+    #container8{
+    flex-wrap: wrap;
+    }
+    #container9{
+    flex-wrap: wrap;
+    gap: 2%;
+    margin-left: 12%;
+    font-size: smaller;
+    }
+    #container12{
+        flex-wrap: wrap;
+        grid-template-columns: auto;
+    }
+    #container14{
+    flex-wrap: wrap;
+    grid-template-columns: auto;
+    }
+    #container10{
+    display: flex;
+    }
+    .img{
+    width: 50px;
+    height: 50px;
+    
+    }
+    #text{
+        text-align: center;
+    }
+    .b1{
+      background-color: green; 
+      border-radius: 40px;
+    }
+    #page1{
+        display: flex;
+        margin-left: 20%;
+    }
+    #text2{
+        font-size: smaller;
+        text-align: center;
+        background-color: aquamarine;
+    }
+    .buttons{
+      text-align: center; 
+      display: flex; 
+    }
+    #Amazing{
+    margin-left: 10%;
+    font-size: smaller;
+    }
+    #image1{
+    flex-wrap: wrap;
+    grid-template-columns: auto;
+    }
+    #images2{
+flex-wrap: wrap;
+    grid-template-columns: auto;
+    }
+    #images3{
+        flex-wrap: wrap;
+        grid-template-columns: auto;
+    }
+    #page7{
+    flex-wrap: wrap;
+    margin-left: 2%;
+    }
+    #page8{
+    flex-wrap: wrap;
+    }
+     #page9{
+            flex-wrap: wrap;
+            grid-template-columns: auto;
+            }
+            .h1{
+            margin-left: 2%;
+            font-size: smaller;
+            }
+            #chat{
+            text-align: center;
+            font-size: smaller;
+            }
+            #photos{
+            grid-template-columns: auto;
+            flex-wrap: wrap;
+            gap: 4%;
+            
+            }
+            #last{
+                text-align: center;
+                font-size: smaller;
+            }
+            #lasttext{
+                text-align: center;
+                font-size: smaller;
+            }
+            #footer{
+            font-size: smaller;
+            flex-wrap: wrap;
+            grid-template-columns: auto;
+            }
+            #container2{
+                gap: 5%;
+            }
+            #container2{
+                margin-left: 5%;
+            }
+            #container6{
+            margin: left 5%; ;
+            flex-wrap: wrap;
+            grid-template-columns: auto;
+            }
+            .b2{
+            background-color: forestgreen;
+            }
+            .flower1{
+            width: 50px;
+            }
+            .ph4{
+            width: 50px;
+            }
+            .h2{
+            font-size: smaller;
+            }
+            tt{
+            font-size: smaller;
+            }
+            .pp{
+            font-size: smaller;
+            }
+            
+            
+        }
+            
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    } 
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
