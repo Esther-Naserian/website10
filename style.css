@@ -132,6 +132,9 @@ background-color: forestgreen;
     #navbar{
 text-decoration: none;
 font-size: smaller;
+display: grid;
+gap: 2%;
+grid-auto-columns: 1 1fr;
 }
 
 #container1{
@@ -158,6 +161,8 @@ grid-template-columns: auto;
     #container5{
         flex-wrap: wrap;
         grid-template-columns: auto;
+        display: grid;
+
     }
     #container8{
     flex-wrap: wrap;
@@ -192,17 +197,17 @@ grid-template-columns: auto;
       border-radius: 40px;
     }
     #page1{
-        display: flex;
-        margin-left: 20%;
+        flex-wrap: wrap;
+        margin-left: 10%;
     }
     #text2{
         font-size: smaller;
-        text-align: center;
+        
         background-color: aquamarine;
     }
     .buttons{
       text-align: center; 
-      display: flex; 
+      flex-wrap: wrap;
     }
     #Amazing{
     margin-left: 10%;
@@ -257,6 +262,7 @@ flex-wrap: wrap;
             font-size: smaller;
             flex-wrap: wrap;
             grid-template-columns: auto;
+            display: grid;
             }
             #container2{
                 gap: 5%;
@@ -288,8 +294,8 @@ flex-wrap: wrap;
             font-size: smaller;
             }
             
-            
-        }
+        } 
+        
             
         
             
@@ -312,7 +318,7 @@ flex-wrap: wrap;
 
 
 
-    } 
+    
 
 
 
